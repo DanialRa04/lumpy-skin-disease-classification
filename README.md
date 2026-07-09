@@ -4,7 +4,7 @@ I used this project to study how environmental and geographic features relate to
 
 ## Dataset
 
-- File: [Lumpy_skin_disease_data.zip](https://github.com/DanialRa04/lumpy-skin-disease-classification/releases/download/dataset-v1/Lumpy_skin_disease_data.zip)
+- File: `data/Lumpy_skin_disease_data.csv`
 - Rows: 24,803
 - Target: `lumpy` where `1` means a reported case and `0` means no reported case
 
@@ -12,8 +12,8 @@ The original file also includes `region`, `country`, and `reportingDate`, but I 
 
 ## Folder structure
 
-- `codes/Lumpy_Skin_Disease_Classification.ipynb`: cleaned notebook
-- `release asset `Lumpy_skin_disease_data.zip`: compressed source dataset; unzip it into `data/` before running
+- `codes/SkinDiseaseClassifier.ipynb`: cleaned and executed notebook with saved outputs
+- `data/Lumpy_skin_disease_data.csv`: source dataset used by the notebook
 
 ## Method
 
@@ -27,7 +27,7 @@ Install the usual notebook stack before running:
 pip install numpy pandas matplotlib scikit-learn jupyter
 ```
 
-Then open the notebook from the project root or from the `codes` folder so the relative path works after unzipping the dataset release asset into the `data/` folder.
+Then open the notebook from the project root or from the `codes` folder so the relative path to `../data/Lumpy_skin_disease_data.csv` still works.
 
 ## Results
 
