@@ -12,7 +12,7 @@ The original file also includes `region`, `country`, and `reportingDate`, but I 
 
 ## Folder structure
 
-- `codes/SkinDiseaseClassifier.ipynb`: cleaned and executed notebook with saved outputs
+- `codes/Lumpy_Skin_Disease_Classification.ipynb`: cleaned notebook
 - `data/Lumpy_skin_disease_data.csv`: source dataset used by the notebook
 
 ## Method
